@@ -2,100 +2,13 @@
  "actualizado": "2026-11-25T10:54:53.297Z",
  "items": [
   {
-   "id": "12nBxkoGc0U",
-   "titulo": "CAPTURAN a Alias“BULA” CABECILLA del CLAN Autor “PARO MINERO” Bajo Cauca Antioqueño #FocusNoticias",
-   "canal": "FOCUS NOTICIAS",
-   "hace": "hace 3 a",
-   "duracion": "2:10",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "2MgLs4gxqC0",
-   "titulo": "Paro minero cierra el comercio y las vías en el Bajo Cauca",
-   "canal": "Hora 13 Noticias",
-   "hace": "hace 3 a",
-   "duracion": "1:36",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "htoRkK1-XIk",
-   "titulo": "Tensa situación de orden público en el Bajo Cauca por paro minero",
-   "canal": "CABLENOTICIAS",
-   "hace": "hace 3 a",
-   "duracion": "2:32",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "2iGPLNrwqBM",
-   "titulo": "Se cumplen 13 días del paro minero en el Bajo Cauca",
-   "canal": "W Radio Colombia",
-   "hace": "hace 3 a",
-   "duracion": "29:16",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "0Gx_f4RoRgE",
-   "titulo": "Desde esta medianoche, mineros del Bajo Cauca entrarán a paro - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 3 a",
-   "duracion": "2:38",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "59kz-s3BIdc",
-   "titulo": "Bajo Cauca: si hay desordenes actuará la UNDMO - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 8 m",
-   "duracion": "1:36",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "Vu7T4WBsorw",
-   "titulo": "Líderes mineros suspendieron el paro en el Bajo Cauca - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 3 a",
-   "duracion": "1:18",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "q1iXUp-p_4Y",
-   "titulo": "Paro minero en el Bajo Cauca: bloqueos intermitentes en Caucasia",
-   "canal": "Qué Pasa Medallo",
-   "hace": "hace 8 m",
-   "duracion": "0:34",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "sECPayzGzZA",
-   "titulo": "Estallido de una crisis: El paro minero Bajo Cauca",
-   "canal": "Luisa Fernanda Esquivel Guerra",
-   "hace": "hace 2 a",
-   "duracion": "1:46",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "JzAgBjW40EQ",
-   "titulo": "El paro minero bloquea al Bajo Cauca | El Colombiano",
-   "canal": "El Colombiano",
-   "hace": "hace 3 a",
-   "duracion": "3:04",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
    "id": "rv1t-KjtcYM",
    "titulo": "Paro minero desata tensión en el Bajo Cauca, bloqueos y violencia encienden alarmas",
    "canal": "CABLENOTICIAS",
    "hace": "hace 7 m",
    "duracion": "3:15",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "jnZhBJBdzPM",
-   "titulo": "Consejo de seguridad por violencia en paro minero - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 3 a",
-   "duracion": "8:05",
-   "visto": "2026-11-25T10:54:53.297Z"
+   "visto": "2026-11-25T10:54:53.297Z",
+   "publicado": "2026-04-29T12:11:01.206Z"
   },
   {
    "id": "Xh8vrdxn33M",
@@ -103,39 +16,8 @@
    "canal": "Sin Carreta",
    "hace": "hace 7 m",
    "duracion": "8:30",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "WxV7JT4rqxg",
-   "titulo": "Bajo Cauca-Nordeste: hoy, 19 días de paro minero - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 3 a",
-   "duracion": "11:46",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "PQ2aYJpc9B4",
-   "titulo": "Mineros deciden si van a paro de actividades - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 3 a",
-   "duracion": "2:40",
-   "visto": "2026-11-25T10:54:53.297Z"
-  },
-  {
-   "id": "Bg2ev0dLzkI",
-   "titulo": "Cinematográfico y millonario robo de oro en Zaragoza - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 6 a",
-   "duracion": "1:37",
-   "visto": "2026-11-25T10:54:52.058Z"
-  },
-  {
-   "id": "I8DI4s9kZEk",
-   "titulo": "Capturado alias \"Camila\" presunto particante del robo de una mina en Zaragoza - Telemedellín",
-   "canal": "Noticias Telemedellín",
-   "hace": "hace 6 a",
-   "duracion": "1:31",
-   "visto": "2026-11-25T10:54:52.058Z"
+   "visto": "2026-11-25T10:54:53.297Z",
+   "publicado": "2026-04-29T12:11:01.206Z"
   },
   {
    "id": "Y4kyRUbhq00",
@@ -143,15 +25,26 @@
    "canal": "LUZ MERY VERGARA MOSQUERA",
    "hace": "hace 7 m",
    "duracion": "1:16",
-   "visto": "2026-11-25T10:54:52.058Z"
+   "visto": "2026-11-25T10:54:52.058Z",
+   "publicado": "2026-04-29T12:11:01.206Z"
   },
   {
-   "id": "pzMM9vh7Q1Q",
-   "titulo": "(Video) Millonario robo se registró en una mina de oro en Zaragoza - Telemedellín",
-   "canal": "Noticias Telemedellín",
-   "hace": "hace 6 a",
-   "duracion": "1:50",
-   "visto": "2026-11-25T10:54:52.058Z"
+   "id": "59kz-s3BIdc",
+   "titulo": "Bajo Cauca: si hay desordenes actuará la UNDMO - Teleantioquia Noticias",
+   "canal": "Teleantioquia Noticias",
+   "hace": "hace 8 m",
+   "duracion": "1:36",
+   "visto": "2026-11-25T10:54:53.297Z",
+   "publicado": "2026-03-30T12:11:01.206Z"
+  },
+  {
+   "id": "q1iXUp-p_4Y",
+   "titulo": "Paro minero en el Bajo Cauca: bloqueos intermitentes en Caucasia",
+   "canal": "Qué Pasa Medallo",
+   "hace": "hace 8 m",
+   "duracion": "0:34",
+   "visto": "2026-11-25T10:54:53.297Z",
+   "publicado": "2026-03-30T12:11:01.206Z"
   },
   {
    "id": "ojjH6Ld0zLU",
@@ -159,55 +52,8 @@
    "canal": "Descubriendo Oro",
    "hace": "hace 9 m",
    "duracion": "6:10",
-   "visto": "2026-11-25T10:54:52.058Z"
-  },
-  {
-   "id": "BLdQiZ7BoDk",
-   "titulo": "25 familias de Zaragoza recibieron acreditación como mineros de subsistencia",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 7 a",
-   "duracion": "1:22",
-   "visto": "2026-11-25T10:54:52.058Z"
-  },
-  {
-   "id": "HfHdbx244hc",
-   "titulo": "Crecimiento mancha minera en Zaragoza, Antioquia 2000 - 2021",
-   "canal": "Vladimir Lenin",
-   "hace": "hace 1 a",
-   "duracion": "0:36",
-   "visto": "2026-11-25T10:54:52.058Z"
-  },
-  {
-   "id": "uQijZbvx7mQ",
-   "titulo": "CONTAMINACIÓN POR MERCURIO Y PLOMO SUPERÓ LÍMITES EN EL RÍO NECHÍ",
-   "canal": "Gs Noticias",
-   "hace": "hace 2 a",
-   "duracion": "1:49",
-   "visto": "2026-11-25T10:54:51.405Z"
-  },
-  {
-   "id": "GadfwVOcKks",
-   "titulo": "Así fue la quema de 3 enormes 'dragones' que contaminaban con mercurio el río Nechí",
-   "canal": "Noticias Caracol",
-   "hace": "hace 3 a",
-   "duracion": "2:46",
-   "visto": "2026-11-25T10:54:51.405Z"
-  },
-  {
-   "id": "fcghu_6T2Ow",
-   "titulo": "El 75 % del río Nechí está contaminado por minería ilegal - Teleantioquia Noticias",
-   "canal": "Teleantioquia Noticias",
-   "hace": "hace 7 a",
-   "duracion": "2:13",
-   "visto": "2026-11-25T10:54:51.405Z"
-  },
-  {
-   "id": "nNfa0o2UFBs",
-   "titulo": "Impactos del mercurio en la vida de los habitantes del Bajo Cauca",
-   "canal": "IPCPrensa",
-   "hace": "hace 2 a",
-   "duracion": "2:49",
-   "visto": "2026-11-25T10:54:51.405Z"
+   "visto": "2026-11-25T10:54:52.058Z",
+   "publicado": "2026-02-28T12:11:01.206Z"
   },
   {
    "id": "Y808rm4Rp8Y",
@@ -215,31 +61,8 @@
    "canal": "Colectivo Gente&Bosques - El Bagre Ant (Serranía de San Lucas)",
    "hace": "hace 9 m",
    "duracion": "9:46",
-   "visto": "2026-11-25T10:54:51.405Z"
-  },
-  {
-   "id": "fc7Nta69AWo",
-   "titulo": "Territorio Verde 8 -  Nechí",
-   "canal": "Territorio Verde TV",
-   "hace": "hace 7 a",
-   "duracion": "5:16",
-   "visto": "2026-11-25T10:54:51.405Z"
-  },
-  {
-   "id": "ilFL-sauF-E",
-   "titulo": "El verdadero precio del oro: impactos de la minería aurífera en el río Nechí",
-   "canal": "IPCPrensa",
-   "hace": "hace 2 a",
-   "duracion": "21:04",
-   "visto": "2026-11-25T10:54:51.405Z"
-  },
-  {
-   "id": "-v2ORqP1k0w",
-   "titulo": "Diarios del Agua - Rio Nechí Temporada II.",
-   "canal": "Fundación Somos Colombia Avanza",
-   "hace": "hace 1 a",
-   "duracion": "26:43",
-   "visto": "2026-11-25T10:54:51.405Z"
+   "visto": "2026-11-25T10:54:51.405Z",
+   "publicado": "2026-02-28T12:11:01.206Z"
   }
  ]
 }
