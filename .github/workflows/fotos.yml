@@ -1,0 +1,24 @@
+name: Fotos para el video y el flyer
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/fotos.mjs', '.github/workflows/fotos.yml']
+permissions:
+  contents: write
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --no-save --no-package-lock sharp@0.33
+      - run: node scripts/fotos.mjs
+      - run: |
+          git config user.name "robot-ojo-mineria"
+          git config user.email "actions@github.com"
+          git add promo/
+          git diff --cached --quiet && exit 0
+          git commit -m "Fotos reales para video y flyer"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
