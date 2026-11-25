@@ -1,0 +1,41 @@
+name: Robot de noticias Ojo a la Minería
+
+on:
+  schedule:
+    - cron: '11,41 * * * *'   # cada 30 minutos
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/robot.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robot
+  cancel-in-progress: false
+
+jobs:
+  noticias:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Instalar sharp (para la imagen de vista previa)
+        run: npm install --no-save --no-package-lock sharp@0.33
+      - name: Buscar noticias y fotos reales
+        run: node scripts/robot.mjs
+      - name: Buscar videos reales
+        run: node scripts/videos.mjs
+        continue-on-error: true
+      - name: Guardar cambios
+        run: |
+          git config user.name "robot-ojo-mineria"
+          git config user.email "actions@github.com"
+          git add data/ portada.jpg 2>/dev/null || git add data/
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Robot: noticias $(TZ=America/Bogota date '+%Y-%m-%d %H:%M') hora Colombia"
+          git pull --rebase origin main || true
+          git push

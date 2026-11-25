@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ojo a la Minería · Bajo Cauca — seguimiento ciudadano</title>
+<meta name="description" content="¿Quién se queda con el oro del Bajo Cauca y quién con el agua? Títulos, solicitudes, minería ilegal y noticias que se actualizan solas. Caucasia, Cáceres, El Bagre, Zaragoza, Nechí y Tarazá.">
+<meta name="theme-color" content="#0d1310">
+<link rel="canonical" href="https://ojo-a-la-mineria-bajo-cauca.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vibras Positivas HM">
+<meta property="og:title" content="Ojo a la Minería · Bajo Cauca — ¿quién se queda con el oro?">
+<meta property="og:description" content="3.028 expedientes mineros en Antioquia. Seguimos el Bajo Cauca título por título, con noticias que se actualizan solas cada 30 minutos y un derecho de petición a todas las entidades.">
+<meta property="og:url" content="https://ojo-a-la-mineria-bajo-cauca.netlify.app/">
+<meta property="og:image" content="https://ojo-a-la-mineria-bajo-cauca.netlify.app/portada.jpg?v=1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ojo a la Minería · Bajo Cauca">
+<meta name="twitter:description" content="Seguimiento ciudadano a la minería en Caucasia y el Bajo Cauca: títulos, minería ilegal, noticias y derecho de petición.">
+<meta name="twitter:image" content="https://ojo-a-la-mineria-bajo-cauca.netlify.app/portada.jpg?v=1">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<header class="barra">
+  <a class="marca" href="#inicio"><span class="marca-mw">OM</span><span>Ojo a la <b>Minería</b></span></a>
+  <nav class="menu">
+    <a href="#hoy" data-i18n="nav_hoy">Hoy</a>
+    <a href="#mapa" data-i18n="nav_mapa">Mapa</a>
+    <a href="#casos" data-i18n="nav_casos">Casos</a>
+    <a href="#videos" data-i18n="nav_videos">Videos</a>
+    <a href="#peticion" data-i18n="nav_peticion">Petición</a>
+  </nav>
+  <div class="acciones">
+    <button class="btn-lang" id="btnLang" aria-label="Cambiar idioma">EN</button>
+    <button class="btn-act" id="btnActualizar"><span class="giro"></span><span data-i18n="actualizar">Actualizar</span></button>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-fotos" id="heroFotos"><div class="on sat"></div></div>
+  <div class="hero-velo"></div>
+  <div class="hero-in">
+    <div class="pildora"><i></i><span data-i18n="hero_pildora">Bajo Cauca antioqueño · seguimiento ciudadano</span></div>
+    <h1 data-i18n="hero_titulo">¿Quién se queda con el oro y quién con el agua?</h1>
+    <p class="hero-sub" data-i18n="hero_sub">Caucasia, Cáceres, El Bagre, Zaragoza, Nechí y Tarazá. Seguimos cada título, cada solicitud y cada daño de la minería en nuestra tierra, con la fuente al lado.</p>
+    <div class="marcador" id="marcador"></div>
+    <p class="hero-pie" id="heroPie"></p>
+  </div>
+</section>
+
+<div class="cinta"><div class="cinta-in" id="cinta"></div></div>
+
+<main>
+
+<section class="bloque" id="hoy">
+  <div class="cab">
+    <h2 data-i18n="hoy_t">Hoy</h2>
+    <span class="vivo"><i></i><span id="hoyFecha"></span></span>
+  </div>
+  <p class="intro" data-i18n="hoy_i">Lo último sobre minería en el Bajo Cauca y Antioquia. Se actualiza cada vez que usted entra y el robot trae noticias nuevas cada 30 minutos.</p>
+  <div class="buscador">
+    <input id="q" type="search" data-i18n-ph="buscar_ph" placeholder="Buscar en vivo: El Bagre, mercurio, Mineros, La Mandinga…">
+    <button id="btnBuscar" data-i18n="buscar">Buscar</button>
+  </div>
+  <div class="rapidas" id="rapidas"></div>
+  <div class="estado-busq" id="estadoBusq"></div>
+  <div class="tarjetas" id="hoyLista"></div>
+</section>
+
+<section class="bloque oscuro" id="mapa">
+  <h2 data-i18n="ma_t">El mapa de nuestra tierra</h2>
+  <p class="intro" data-i18n="ma_i">Imagen de satélite real del Bajo Cauca. Cada círculo es un municipio y su tamaño es el número de títulos mineros. Toque un círculo para ver el detalle.</p>
+  <div class="mapa-grid">
+    <div id="mapaSat" class="mapa-sat"></div>
+    <div class="barras" id="barras"></div>
+  </div>
+  <p class="mini nota-mapa" id="notaMapa"></p>
+</section>
+
+<section class="bloque" id="casos">
+  <h2 data-i18n="ca_t">Los casos que vigilamos</h2>
+  <p class="intro" id="caCorte"></p>
+  <div class="casos" id="listaCasos"></div>
+</section>
+
+<section class="bloque gris" id="pais">
+  <h2 data-i18n="pa_t">Antioquia frente al resto del país</h2>
+  <p class="intro" data-i18n="pa_i">Expedientes mineros (títulos más solicitudes) por departamento. Antioquia tiene más que Tolima, Chocó y Nariño juntos.</p>
+  <div class="dptos" id="dptos"></div>
+  <div class="credito">
+    <div>
+      <b data-i18n="cr_t">Datos de «Colombia en venta»</b>
+      <p id="crTexto"></p>
+    </div>
+    <a class="btn-prim" href="https://colombiaenventa.v1tr0.com" target="_blank" rel="noopener" data-i18n="cr_btn">Ver el atlas completo</a>
+  </div>
+</section>
+
+<section class="bloque" id="linea">
+  <h2 data-i18n="li_t">Cómo llegamos hasta aquí</h2>
+  <ol class="linea" id="lineaT"></ol>
+</section>
+
+<section class="bloque region" id="quien">
+  <h2 data-i18n="qu_t">¿Quién responde?</h2>
+  <p class="intro" data-i18n="qu_i">Estas son las entidades que deciden y vigilan la minería en el Bajo Cauca. A todas les llega la petición de abajo.</p>
+  <div class="regiones" id="autoridades"></div>
+</section>
+
+<section class="bloque oscuro" id="videos">
+  <h2 data-i18n="vi_t">Videos reales</h2>
+  <p class="intro" data-i18n="vi_i">Reportajes y noticias en video sobre la minería en el Bajo Cauca. El robot busca videos nuevos cada 30 minutos.</p>
+  <div class="reproductor" id="reproductor"></div>
+  <div class="videos" id="listaVideos"></div>
+</section>
+
+<section class="bloque" id="preguntas">
+  <h2 data-i18n="pr_t">Lo que queremos saber</h2>
+  <div class="preguntas" id="listaPreguntas"></div>
+</section>
+
+<section class="bloque peticion" id="peticion">
+  <h2 data-i18n="pe_t">Derecho de petición: que nos cuenten qué está pasando</h2>
+  <p class="intro" data-i18n="pe_i">Llene sus datos y envíe una sola petición a todas las entidades a la vez. La ley les da 15 días hábiles para responder (artículo 23 de la Constitución y Ley 1755 de 2015). Si una entidad no es la competente, debe pasarla a la que sí.</p>
+  <div class="pet-grid">
+    <form id="formPet" class="pet-form">
+      <label><span data-i18n="pe_nombre">Nombre completo</span><input name="nombre" required></label>
+      <label><span data-i18n="pe_cc">Cédula</span><input name="cc" inputmode="numeric" required></label>
+      <label><span data-i18n="pe_ciudad">Ciudad</span><input name="ciudad" value="Caucasia, Antioquia" required></label>
+      <label><span data-i18n="pe_correo">Su correo para la respuesta</span><input name="correo" type="email" required></label>
+      <label><span data-i18n="pe_tel">Celular (opcional)</span><input name="tel" inputmode="tel"></label>
+      <label><span data-i18n="pe_muni">Municipio que más le preocupa</span>
+        <select name="muni" id="selMuni"></select></label>
+      <div class="pet-dest"><span data-i18n="pe_dest">Se envía a</span><ul id="destinos"></ul></div>
+      <div class="pet-botones">
+        <button type="submit" class="btn-prim" data-i18n="pe_enviar">Enviar a todas las entidades</button>
+        <button type="button" id="btnGmail" class="btn-sec" data-i18n="pe_gmail">Abrir en Gmail</button>
+        <button type="button" id="btnCopiar" class="btn-sec" data-i18n="pe_copiar">Copiar texto</button>
+      </div>
+      <p class="mini" data-i18n="pe_nota">La app no guarda sus datos: el correo sale desde su propia cuenta. Revise los correos de las entidades antes de enviar; pueden cambiar.</p>
+    </form>
+    <pre class="pet-texto" id="petTexto"></pre>
+  </div>
+</section>
+
+<section class="bloque" id="fuentes">
+  <h2 data-i18n="fu_t">Todas las noticias</h2>
+  <div class="lista-fuentes" id="todas"></div>
+  <button class="btn-sec centro" id="btnMas" data-i18n="ver_mas">Ver más</button>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div>
+    <b>Vibras Positivas HM</b>
+    <p data-i18n="pie_txt">App ciudadana independiente. No es del Gobierno ni de ninguna empresa minera. Los datos vienen de entidades oficiales y medios, siempre con su fuente. Gracias a @efren.fotograma por el atlas «Colombia en venta».</p>
+    <p>Caucasia, Antioquia · WhatsApp <a href="https://wa.me/573117700431">311 770 0431</a></p>
+  </div>
+  <div class="pie-der">
+    <button class="btn-prim" id="btnCompartir" data-i18n="compartir">Compartir por WhatsApp</button>
+    <p class="mini" id="robotHora"></p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>

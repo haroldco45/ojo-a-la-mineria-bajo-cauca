@@ -1,0 +1,280 @@
+{
+ "actualizado": "2026-11-25T05:30:00-05:00",
+ "corte": "Datos verificados al 25 de noviembre de 2026 (hora Colombia).",
+ "cifras": [
+  {
+   "num": 3028,
+   "es": "expedientes mineros en Antioquia (títulos + solicitudes)",
+   "en": "mining files in Antioquia (titles + applications)",
+   "fuente": "@efren.fotograma con el Catastro ANM del 12-nov-2026",
+   "url": "https://colombiaenventa.v1tr0.com"
+  },
+  {
+   "num": 168,
+   "es": "títulos mineros en el Bajo Cauca y su entorno",
+   "en": "mining titles in Bajo Cauca and surroundings",
+   "fuente": "ANM, infografía de formalización Bajo Cauca 2024",
+   "url": "https://www.anm.gov.co/sites/default/files/Infografi%CC%81a%20Formalizacio%CC%81n%20Bajo%20Cauca.pdf"
+  },
+  {
+   "num": 493,
+   "es": "hectáreas nuevas dañadas por minería ilegal en el Bajo Cauca solo en 2025",
+   "en": "new hectares damaged by illegal mining in Bajo Cauca in 2025 alone",
+   "fuente": "Procuraduría General de la Nación (vía Minuto30)",
+   "url": "https://www.minuto30.com/amp/alerta-bajo-cauca-procuraduria-mineria-ilegal/1721225/"
+  },
+  {
+   "num": 2500,
+   "pre": "hasta ",
+   "es": "mineros informales en La Mandinga, junto al Batallón Rifles de Caucasia",
+   "en": "informal miners at La Mandinga, next to the Rifles Battalion in Caucasia",
+   "fuente": "Ejército, citado por El Colombiano",
+   "url": "https://www.elcolombiano.com/antioquia/petro-entrego-titulo-minero-en-caucasia-cerca-a-batallon-del-ejercito-HG35995156"
+  }
+ ],
+ "municipios": [
+  {
+   "n": "Zaragoza",
+   "t": 58,
+   "lat": 7.49,
+   "lng": -74.869
+  },
+  {
+   "n": "Cáceres",
+   "t": 46,
+   "lat": 7.578,
+   "lng": -75.352,
+   "dir": "right"
+  },
+  {
+   "n": "El Bagre",
+   "t": 22,
+   "lat": 7.597,
+   "lng": -74.809
+  },
+  {
+   "n": "Caucasia",
+   "t": 14,
+   "lat": 7.986,
+   "lng": -75.198
+  },
+  {
+   "n": "Tarazá",
+   "t": 12,
+   "lat": 7.58,
+   "lng": -75.402,
+   "dir": "left"
+  },
+  {
+   "n": "Nechí",
+   "t": 8,
+   "lat": 8.094,
+   "lng": -74.776
+  }
+ ],
+ "municipios_nota": "Títulos por municipio según la infografía de la ANM (2024). El total de 168 incluye además Anorí (7) y Amalfi (1). De los 168, 133 estaban en explotación, 32 en construcción y montaje y 3 en exploración.",
+ "municipios_nota_en": "Titles per municipality per the ANM infographic (2024). The 168 total also includes Anorí (7) and Amalfi (1). Of the 168, 133 were in exploitation, 32 in construction and 3 in exploration.",
+ "departamentos": [
+  {
+   "n": "Antioquia",
+   "v": 3028
+  },
+  {
+   "n": "Tolima",
+   "v": 867
+  },
+  {
+   "n": "Chocó",
+   "v": 771
+  },
+  {
+   "n": "Nariño",
+   "v": 383
+  }
+ ],
+ "departamentos_fuente": "Serie «Colombia en venta» de @efren.fotograma (politólogo), con Catastro ANM, ANT y RUNAP al 12-nov-2026.",
+ "casos": [
+  {
+   "id": "mandinga",
+   "titulo": "La Mandinga: una mina de oro pegada al batallón",
+   "title": "La Mandinga: a gold mine next to an army battalion",
+   "lugar": "Cáceres, vereda Río Man (vía Caucasia–Medellín)",
+   "lat": 7.9,
+   "lng": -75.25,
+   "estado": "abierto",
+   "texto": "El 11 de abril de 2024, en un evento en Caucasia, el entonces presidente Petro entregó títulos a pequeños mineros. Una de las beneficiarias aparece ligada al predio Mandinga (placa ODH-08201). El Ejército dice que entre 2.000 y 2.500 mineros sin título ocupan el área y que avisa a Fiscalía y Procuraduría desde 2022. Corantioquia dice que la mina tiene licencia ambiental desde 2022. La ANM pidió a la Alcaldía de Cáceres el 10 de octubre de 2025 frenar la ocupación ilegal.",
+   "text": "On April 11, 2024, at an event in Caucasia, then-President Petro handed out titles to small miners. One beneficiary is linked to the Mandinga property (plate ODH-08201). The Army says 2,000–2,500 miners without titles occupy the area and that it has alerted prosecutors since 2022. Corantioquia says the mine has held an environmental license since 2022. The ANM asked Cáceres' mayor on Oct 10, 2025 to stop the illegal occupation.",
+   "fuente": "El Colombiano, 29-abr-2026",
+   "url": "https://www.elcolombiano.com/antioquia/petro-entrego-titulo-minero-en-caucasia-cerca-a-batallon-del-ejercito-HG35995156"
+  },
+  {
+   "id": "distrito",
+   "titulo": "Se cayó el Distrito Agrominero del Bajo Cauca",
+   "title": "The Bajo Cauca agro-mining district was revoked",
+   "lugar": "Cáceres, Caucasia, El Bagre, Nechí, Tarazá y Zaragoza",
+   "estado": "decidido",
+   "texto": "El Ministerio de Minas, con la ministra María Nohemí Arboleda, derogó el 22 de octubre de 2026 (Resolución 40579) el distrito creado en 2024, junto con otros 14 distritos. Dice que no hubo resultados verificables. La ANM tenía 30 días para actualizar el Catastro Minero. Los títulos vigentes y las solicitudes en trámite quedan protegidos por la Ley 685 de 2001.",
+   "text": "The Mines Ministry, led by María Nohemí Arboleda, revoked on Oct 22, 2026 (Resolution 40579) the district created in 2024, along with 14 others, citing no verifiable results. The ANM had 30 days to update the Mining Cadastre. Existing titles and pending applications remain protected under Law 685 of 2001.",
+   "fuente": "Portafolio, 24-oct-2026",
+   "url": "https://www.portafolio.co/negocios/industrias/gobierno-elimina-15-distritos-mineros-que-cambia-para-5-3-millones-de-hectareas-que-abarcan-el-5-del-territorio-505051"
+  },
+  {
+   "id": "r57011",
+   "titulo": "El título grande: R57011 de Mineros",
+   "title": "The big title: Mineros' R57011",
+   "lugar": "El Bagre, Zaragoza, Caucasia, Nechí y Anorí",
+   "lat": 7.62,
+   "lng": -74.85,
+   "estado": "vigilancia",
+   "texto": "Operación aluvial de Mineros S.A., en operación desde 2019 y declarada de Interés Estratégico. Es uno de los 4 títulos en los que la ANM retomó la fiscalización directa en Antioquia. Mineros reportó ingresos de $1,07 billones en el primer trimestre de 2026.",
+   "text": "Mineros S.A.'s alluvial operation, running since 2019 and declared of Strategic Interest. It is one of 4 titles where the ANM took back direct oversight in Antioquia. Mineros reported COP 1.07 trillion in Q1 2026 revenue.",
+   "fuente": "Portafolio y Valora Analitik",
+   "url": "https://www.portafolio.co/economia/finanzas/anm-titulos-en-los-que-la-entidad-retoma-el-control-en-antioquia-577036"
+  },
+  {
+   "id": "ilegal",
+   "titulo": "La minería ilegal sigue creciendo",
+   "title": "Illegal mining keeps growing",
+   "lugar": "Río Nechí, El Bagre, Cáceres y Caucasia",
+   "lat": 7.75,
+   "lng": -74.8,
+   "estado": "abierto",
+   "texto": "La Procuraduría priorizó el Bajo Cauca por 493 hectáreas nuevas dañadas en 2025. El 29 de octubre de 2026 el presidente De La Espriella anunció la caída de la red «Deep Gold», con 8 capturados en El Bagre y Caucasia. En Antioquia la minería ilegal deforestó unas 70.000 hectáreas en dos décadas, según la Gobernación.",
+   "text": "The Inspector General prioritized Bajo Cauca over 493 new damaged hectares in 2025. On Oct 29, 2026 President De La Espriella announced the fall of the 'Deep Gold' network, with 8 arrests in El Bagre and Caucasia. Illegal mining deforested about 70,000 hectares in Antioquia over two decades, per the Governor's office.",
+   "fuente": "Minuto30 y RTVC",
+   "url": "https://www.minuto30.com/mineria-ilegal-desarticulan-la-banda-criminal-deep-gold-en-el-bajo-cauca-antioqueno/1725822/"
+  },
+  {
+   "id": "paro",
+   "titulo": "El paro minero de marzo",
+   "title": "The March mining strike",
+   "lugar": "Caucasia, El Bagre, Zaragoza, Valdivia y sur de Córdoba",
+   "estado": "decidido",
+   "texto": "Entre el 16 y el 28 de marzo de 2026 hubo bloqueos en la vía a la Costa, toque de queda en Caucasia, vehículos quemados y una lancha de Mineros incendiada en El Bagre. Se levantó tras 11 días con un acuerdo con el Gobierno de entonces. Ese acuerdo incluía consolidar el distrito minero, que luego se derogó.",
+   "text": "From March 16 to 28, 2026 there were blockades on the road to the coast, a curfew in Caucasia, burned vehicles and a Mineros boat set on fire in El Bagre. It ended after 11 days with a deal with the then government that included consolidating the mining district, later revoked.",
+   "fuente": "Vanguardia y El Colombiano",
+   "url": "https://www.vanguardia.com/colombia/2026/03/28/levantan-paro-minero-en-el-bajo-cauca-tras-11-dias-de-bloqueos-y-disturbios/"
+  }
+ ],
+ "linea": [
+  {
+   "f": "2024-04-11",
+   "es": "Petro entrega títulos mineros en Caucasia. Uno queda ligado a La Mandinga (Cáceres).",
+   "en": "Petro hands out mining titles in Caucasia. One is linked to La Mandinga (Cáceres).",
+   "url": "https://www.elcolombiano.com/antioquia/petro-entrego-titulo-minero-en-caucasia-cerca-a-batallon-del-ejercito-HG35995156"
+  },
+  {
+   "f": "2024-10-17",
+   "es": "MinEnergía firma en Caucasia el Distrito Agrominero y Pesquero del Bajo Cauca.",
+   "en": "Energy Ministry signs the Bajo Cauca Agro-mining and Fishing District in Caucasia.",
+   "url": "https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/ministerio-de-minas-y-energ%C3%ADa-delimita-el-primer-distrito-para-la-vida-y-la-paz-del-pa%C3%ADs-en-el-bajo-cauca-antioque%C3%B1o/"
+  },
+  {
+   "f": "2026-03-16",
+   "es": "Empieza el paro minero: bloqueos y toque de queda en Caucasia.",
+   "en": "Mining strike begins: blockades and curfew in Caucasia.",
+   "url": "https://www.elcolombiano.com/antioquia/paro-minero-bajo-cauca-antioqueno-cordoba-2026-cierres-viales-AH34661472"
+  },
+  {
+   "f": "2026-03-28",
+   "es": "Se levanta el paro tras 11 días con un acuerdo con el Gobierno.",
+   "en": "Strike lifted after 11 days with a government deal.",
+   "url": "https://www.vanguardia.com/colombia/2026/03/28/levantan-paro-minero-en-el-bajo-cauca-tras-11-dias-de-bloqueos-y-disturbios/"
+  },
+  {
+   "f": "2026-04-26",
+   "es": "The New York Times publica fotos de la mina que crece sobre terrenos del Ejército.",
+   "en": "The New York Times publishes photos of the mine expanding onto Army land.",
+   "url": "https://www.elcolombiano.com/antioquia/petro-entrego-titulo-minero-en-caucasia-cerca-a-batallon-del-ejercito-HG35995156"
+  },
+  {
+   "f": "2026-08-13",
+   "es": "Juan Camilo Valencia González es designado presidente de la ANM.",
+   "en": "Juan Camilo Valencia González named head of the ANM.",
+   "url": "https://www.larepublica.co/economia/ministra-de-minas-y-energia-designo-a-los-nuevos-directores-de-la-upme-y-la-anm-4458254"
+  },
+  {
+   "f": "2026-10-22",
+   "es": "MinEnergía deroga el Distrito Agrominero del Bajo Cauca (Res. 40579).",
+   "en": "Energy Ministry revokes the Bajo Cauca district (Res. 40579).",
+   "url": "https://www.portafolio.co/negocios/industrias/gobierno-elimina-15-distritos-mineros-que-cambia-para-5-3-millones-de-hectareas-que-abarcan-el-5-del-territorio-505051"
+  },
+  {
+   "f": "2026-10-29",
+   "es": "Cae la red «Deep Gold»: 8 capturados en El Bagre y Caucasia.",
+   "en": "'Deep Gold' network dismantled: 8 arrested in El Bagre and Caucasia.",
+   "url": "https://www.minuto30.com/mineria-ilegal-desarticulan-la-banda-criminal-deep-gold-en-el-bajo-cauca-antioqueno/1725822/"
+  },
+  {
+   "f": "2026-11-12",
+   "es": "Corte del Catastro ANM usado por «Colombia en venta»: 3.028 expedientes en Antioquia.",
+   "en": "ANM Cadastre cut-off used by 'Colombia en venta': 3,028 files in Antioquia.",
+   "url": "https://colombiaenventa.v1tr0.com"
+  }
+ ],
+ "autoridades": [
+  {
+   "q": "Agencia Nacional de Minería (ANM)",
+   "who": "Juan Camilo Valencia González, presidente",
+   "es": "Otorga títulos, lleva el Catastro y fiscaliza. Retomó la fiscalización de los 1.153 títulos que tenía la Gobernación.",
+   "en": "Grants titles, keeps the Cadastre and oversees. Took back oversight of the 1,153 titles the Governor's office handled."
+  },
+  {
+   "q": "Ministerio de Minas y Energía",
+   "who": "María Nohemí Arboleda Arango, ministra",
+   "es": "Fija la política minera. Derogó los distritos mineros especiales.",
+   "en": "Sets mining policy. Revoked the special mining districts."
+  },
+  {
+   "q": "Gobernación de Antioquia — Secretaría de Minas",
+   "who": "Andrés Julián Rendón, gobernador",
+   "es": "Formalización, apoyo a pequeños mineros y control en el territorio.",
+   "en": "Formalization, small-miner support and local control."
+  },
+  {
+   "q": "Corantioquia",
+   "who": "Autoridad ambiental",
+   "es": "Licencias y permisos ambientales; control del mercurio y del daño a ríos y bosques.",
+   "en": "Environmental licenses; mercury and river/forest damage control."
+  },
+  {
+   "q": "Alcaldías del Bajo Cauca",
+   "who": "Caucasia, Cáceres, El Bagre, Zaragoza, Nechí, Tarazá",
+   "es": "Amparos administrativos y cierre de minas sin título en su territorio.",
+   "en": "Administrative protection orders and closing untitled mines locally."
+  },
+  {
+   "q": "Procuraduría",
+   "who": "Ministerio Público",
+   "es": "Vigila que las entidades cumplan. Priorizó el Bajo Cauca.",
+   "en": "Watches agencies' compliance. Prioritized Bajo Cauca."
+  }
+ ],
+ "preguntas": [
+  {
+   "es": "¿Cuántos títulos y solicitudes hay hoy en cada municipio del Bajo Cauca y a nombre de quién?",
+   "en": "How many titles and applications exist today in each Bajo Cauca town, and who holds them?"
+  },
+  {
+   "es": "¿Cuántos caen sobre resguardos, consejos comunitarios, zonas protegidas o las rondas del Cauca y el Nechí?",
+   "en": "How many overlap Indigenous reserves, Afro community lands, protected areas or the Cauca and Nechí riverbanks?"
+  },
+  {
+   "es": "¿Qué pasa con la formalización y los subcontratos ahora que se derogó el distrito?",
+   "en": "What happens to formalization and subcontracts now that the district was revoked?"
+  },
+  {
+   "es": "¿Qué se ha hecho en La Mandinga desde que la ANM lo pidió el 10 de octubre de 2025?",
+   "en": "What has been done at La Mandinga since the ANM asked on Oct 10, 2025?"
+  },
+  {
+   "es": "¿Cuánto mercurio hay en el agua y el pescado del Cauca y el Nechí?",
+   "en": "How much mercury is in the water and fish of the Cauca and Nechí rivers?"
+  },
+  {
+   "es": "¿Cuánta plata de regalías mineras recibió cada municipio y en qué se gastó?",
+   "en": "How much mining royalty money did each town get, and how was it spent?"
+  }
+ ],
+ "corte_en": "Data verified as of November 25, 2026 (Colombia time)."
+}
