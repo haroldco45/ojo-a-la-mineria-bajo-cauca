@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T10:54:49.012Z",
+ "actualizado": "2026-11-25T12:11:31.215Z",
  "items": [
   {
    "titulo": "\"En la minería de cobre no hay minería ilegal\": presidente de Quebradona responde a los temores del Suroeste antioqueño",
@@ -265,6 +265,13 @@
    "imagen": "https://www.infobae.com/resizer/v2/W5ZUIZV2MBF55OJ2ILG4TMATCU.jpg?auth=24e712751cc132416db2539e3dc46a2333e398e8933d0b30146248af03a91455&smart=true&width=1024&height=512&quality=85"
   },
   {
+   "titulo": "AngloGold Ashanti invertirá US$2.500 millones en la mina Quebradona en Antioquia",
+   "url": "https://www.semana.com/economia/empresas/articulo/anglogold-ashanti-invertira-us2500-millones-en-la-mina-quebradona-en-antioquia/202607/",
+   "fuente": "Semana",
+   "fecha": "2026-11-17T14:55:00.000Z",
+   "imagen": "https://www.semana.com/resizer/v2/Z5CVDBSZCNCFFA2QVQG4O4A32E.png?auth=83c1270a8b1953bb34a2a7b41445def31466efc760dda7661c02eb66ffbeb734&smart=true&quality=75&width=1280&height=720"
+  },
+  {
    "titulo": "Inutilizan en Zaragoza maquinaria de minería ilegal avaluada en más de $10.000 millones",
    "url": "https://www.minuto30.com/inutilizan-en-zaragoza-maquinaria-de-mineria-ilegal-avaluada-en-mas-de-10-000-millones/1731541/",
    "fuente": "Minuto30",
@@ -393,6 +400,14 @@
    "titulo": "Ocho solicitudes de oro llegaron a las APPA de Antioquia un día después de la elección de De la Espriella",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaUF5M2NfMmhSakVSUG1mWDFOZXhwZm5YNm9LY1BiWXF4OWdEcTFVY1l2Rmx6eFBqdXRZRE5VZXpmeUFoeEJrYWFaYU4tbHhiYTFXbDVJTkM2NndxeWtEQ01KYVNMeS1NVmFWci1reUNqR3RwZFdkeFo5andlenJ6b0xjenNNU1ZwbGN0Y1ZXMDZpZmxnd0ZlUktLWXRQUUk?oc=5&hl=es-419&gl=US&ceid=US:es-419",
    "fuente": "CAMBIO Colombia",
+   "fecha": "2026-11-05T08:00:00.000Z",
+   "imagen": "",
+   "_intentado": true
+  },
+  {
+   "titulo": "Antioquia Cómo Vamos reveló radiografía sobre empleo, minería y seguridad en Cisneros",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV0c2Q1hTQWVRRGczZ1E0dEVaRmJZTEQyOEJHcjJra3JCVzJqX2hTN2hBMWVfZVBTbU9EMnliRnliSUY5dGwtb193a2ppc3ZmOTJVWmQtbUVWVzMtQmJlYVpmSGxOc0UwMGk5aEItMmxNeFVES3R6ZHN3VzhRUkRjNGdUQnZiMHZnTjNmMkZpdnNoS1FEamZuSjBQV3Z3ckhET0hCRXMtQWpCcFc4dzFfTmhYRmNwS2dVLVc4?oc=5&hl=es-419&gl=US&ceid=US:es-419",
+   "fuente": "IFM Noticias",
    "fecha": "2026-11-05T08:00:00.000Z",
    "imagen": "",
    "_intentado": true
@@ -528,6 +543,14 @@
    "titulo": "Clan familiar habría extraído oro ilegal con cuatro dragas y mercurio en Antioquia: ocho judicializados",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVHp0anV2aXdSRDdTQWNJeEUxNUFoSVJSdUF2RVR2Z25Uc2JuYWdURzItRWdtcm1qNmdDSndJd0pUYU9yeWpTUzJEb3FuXzRQVThMMldmN3c2U01iX0VlMmd4LUE3eVR2SW5xRWE0dzJPYlhMaUpRTGJpVHluTi1qY2xPZEdablRDdnJIOHFPYWVVS05uejh2a1ltZkpya200QUl5TUxTcFIwd2dlSWtreXQzSXF5UlhkOHM4S2lyYWNNOFYybUd3NWZVTkJJYkRZTzdyY1hJTnljam8?oc=5&hl=es-419&gl=US&ceid=US:es-419",
    "fuente": "Diario La Libertad",
+   "fecha": "2026-10-30T07:00:00.000Z",
+   "imagen": "",
+   "_intentado": true
+  },
+  {
+   "titulo": "Oro, platino y $508 millones en efectivo: así cayó una presunta red familiar de minería ilegal en Antioquia",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUnFDa2xpQV9RTVNnVnpKa3J6Q2xYTEhtT3RJMjNHeDBXdUpGRmt4TkVqTVFfTERIaF9HQm4xMzdsR0xFMjVzVzg3VXllcFprNzF4LUxDUW1zRnU5ZGRaN1B5dTRMcnFjZ09jNWV3YWU3Z0ttRmY0b3gzaXFBVFFzTjEyRk9rWndIVTExeFBnbkFHLXotUjNWRUJFQWtSNVZ5aWFUVUM5blJ3Q3VBZ1JkSmlwTGZ1LXBYS3dOeDRYbU10dWVySWxncHQ3cWY2ZlVOUlhueXJR?oc=5&hl=es-419&gl=US&ceid=US:es-419",
+   "fuente": "Ke se dice",
    "fecha": "2026-10-30T07:00:00.000Z",
    "imagen": "",
    "_intentado": true
@@ -703,14 +726,14 @@
    "url": "https://www.infobae.com/colombia/2026/10/06/fuerza-publica-propino-duro-golpe-a-la-mineria-ilegal-en-los-rios-nechi-y-cauca-destruyeron-25-dragas-y-maquinaria-por-73000-millones/",
    "fuente": "Infobae",
    "fecha": "2026-10-06T04:28:00.000Z",
-   "imagen": ""
+   "imagen": "https://www.infobae.com/resizer/v2/GC3ARMXPQ5HHXOXVI3FURSGDJQ.png?auth=75a1b0e5853bfe0438e830afb10c1abc206bf94695e56ec068a0854f1f012322&smart=true&width=1024&height=512&quality=85"
   },
   {
    "titulo": "Impactantes imágenes del operativo contra la minería ilegal en el río Nechí que habría afectado las finanzas del Clan del Golfo: así lo dejó ver el presidente De la ...",
    "url": "https://www.ntn24.com/noticias-actualidad/impactantes-imagenes-del-operativo-contra-la-mineria-ilegal-en-el-rio-nechi-que-habria-afectado-las-finanzas-del-clan-del-golfo-asi-lo-dejo-ver-el-presidente-de-la-espriella-653912",
    "fuente": "NTN24",
    "fecha": "2026-09-28T05:05:00.000Z",
-   "imagen": ""
+   "imagen": "https://intn24.lalr.co/cms/2026/09/28070437/Operativo-contra-la-mineria-ilegal-en-el-rio-Nechi-EFE-y-Redes-sociales.jpg?w=1280"
   },
   {
    "titulo": "Dragas y ‘dragones’ para la minería ilegal se disparan en Bajo Cauca: habría más de 200",
