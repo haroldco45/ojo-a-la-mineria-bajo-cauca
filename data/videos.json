@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T02:53:39.106Z",
+ "actualizado": "2026-11-26T12:23:27.139Z",
  "items": [
   {
    "publicado": "2026-11-22T12:11:31.297Z",
@@ -119,6 +119,15 @@
    "visto": "2026-11-25T12:11:38.417Z"
   },
   {
+   "publicado": "2026-09-27T12:23:10.700Z",
+   "id": "eFQ8DEtUmtk",
+   "titulo": "FORMALIZACIÓN MINERA Y TRAZABILIDAD SON TOTALMENTE POSIBLES",
+   "canal": "TIERRA ADENTRO PERÚ",
+   "hace": "hace 2 m",
+   "duracion": "25:14",
+   "visto": "2026-11-26T12:23:16.919Z"
+  },
+  {
    "publicado": "2026-09-26T12:11:31.297Z",
    "id": "DbrtHsBKhEE",
    "titulo": "SOBREVUELO EVIDENCIA EL IMPACTO DE LA MINERÍA ILEGAL EN EL BAJO CAUCA ANTIOQUEÑO",
@@ -200,6 +209,15 @@
    "visto": "2026-11-25T12:11:33.309Z"
   },
   {
+   "publicado": "2026-06-29T12:23:10.700Z",
+   "id": "pgPyikFkRPw",
+   "titulo": "Desastre Ambiental: Minería Ilegal Devasta el Río Nechí en Antioquia",
+   "canal": "Noticias LAT | AHORA",
+   "hace": "hace 5 m",
+   "duracion": "2:50",
+   "visto": "2026-11-26T12:23:12.092Z"
+  },
+  {
    "publicado": "2026-06-29T02:53:24.429Z",
    "id": "02E0F2u_5bU",
    "titulo": "Propuesta de Solución a la Minería Ilegal en el Bagre Antioquia.",
@@ -218,58 +236,40 @@
    "visto": "2026-11-25T12:11:33.902Z"
   },
   {
-   "publicado": "2026-05-30T02:53:24.429Z",
-   "id": "xyD0kjZUSAs",
-   "titulo": "🚨 Mina de oro del Clan del Golfo en plena base militar 💣",
-   "canal": "90 Segundos Noticias",
+   "publicado": "2026-05-30T12:23:10.700Z",
+   "id": "S3pAZEL-42Q",
+   "titulo": "CAUCASIA",
+   "canal": "Hora 13 Noticias",
    "hace": "hace 6 m",
-   "duracion": "2:39",
-   "visto": "2026-11-26T02:53:27.634Z"
+   "duracion": "2:06",
+   "visto": "2026-11-26T12:23:11.453Z"
   },
   {
-   "publicado": "2026-05-30T02:53:24.429Z",
-   "id": "lnTbxOohnMk",
-   "titulo": "Periodista del NYT da detalles de la minería ilegal en Caucasia: 'Le dije al coronel que fuéramos...",
-   "canal": "RCN Mundo",
-   "hace": "hace 6 m",
-   "duracion": "4:23",
-   "visto": "2026-11-26T02:53:27.634Z"
-  },
-  {
-   "publicado": "2026-05-30T02:53:24.429Z",
-   "id": "seuSsHnmBMg",
-   "titulo": "Clan del Golfo tenía mina de oro dentro de Batallón: lo que el NYT destapó y el Ejército negaba",
-   "canal": "Tercer Canal",
-   "hace": "hace 6 m",
-   "duracion": "15:24",
-   "visto": "2026-11-26T02:53:27.634Z"
-  },
-  {
-   "publicado": "2026-05-30T02:53:24.429Z",
-   "id": "_2Q9mWjWdFQ",
-   "titulo": "fuerza Militares De Colombia 🇨🇴 minería ilegal Caucasia Antioquía Batallón #31 rifle",
-   "canal": "Cesar  Soto Arrieta",
-   "hace": "hace 6 m",
-   "duracion": "1:55",
-   "visto": "2026-11-26T02:53:27.634Z"
-  },
-  {
-   "publicado": "2026-05-30T02:53:24.429Z",
-   "id": "zfUNu_La-68",
-   "titulo": "UNA MINA DE ORO ILEGAL EN UNA BASE MILITAR : HABLA FEDERICO RIOS",
-   "canal": "BRAVA NEWS",
-   "hace": "Transmitido hace 6 m",
-   "duracion": "19:28",
-   "visto": "2026-11-26T02:53:27.634Z"
-  },
-  {
-   "publicado": "2026-05-30T02:53:24.429Z",
-   "id": "AEGPK6xQVA0",
-   "titulo": "¿Oro ilegal desde base militar terminó en EE. UU.? Revelación clave de The New York Times",
+   "publicado": "2026-05-30T12:23:10.700Z",
+   "id": "NEIfxy6EFAI",
+   "titulo": "New York Times descubrió oro del Clan del Golfo en Batallón de Caucasia | Noticias UNO",
    "canal": "NoticiasUnoColombia",
    "hace": "hace 6 m",
-   "duracion": "9:16",
-   "visto": "2026-11-26T02:53:27.634Z"
+   "duracion": "2:15",
+   "visto": "2026-11-26T12:23:13.409Z"
+  },
+  {
+   "publicado": "2026-05-30T12:23:10.700Z",
+   "id": "QRnwA1nVIgc",
+   "titulo": "Minería ilegal en finca La Mandinga, Caucasia: Ministerio de Defensa evaluará si se encuentra den...",
+   "canal": "RCN Mundo",
+   "hace": "hace 6 m",
+   "duracion": "2:52",
+   "visto": "2026-11-26T12:23:13.409Z"
+  },
+  {
+   "publicado": "2026-05-30T12:23:10.700Z",
+   "id": "qLjanisKvek",
+   "titulo": "Informe de The New York Times expone minería ilegal dentro de base militar en Antioquia",
+   "canal": "Noticias Caracol",
+   "hace": "hace 6 m",
+   "duracion": "17:12",
+   "visto": "2026-11-26T12:23:14.128Z"
   }
  ]
 }
