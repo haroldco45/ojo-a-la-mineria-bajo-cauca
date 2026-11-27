@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T14:21:18.212Z",
+ "actualizado": "2026-11-27T20:56:52.770Z",
  "items": [
   {
    "titulo": "Declaran emergencia ambiental por minería ilegal sobre Río Nechí: llegada de dragas aumentó un 560%",
@@ -8,6 +8,20 @@
    "fecha": "2026-11-27T13:43:18.000Z",
    "imagen": "",
    "_intentado": true
+  },
+  {
+   "titulo": "Río Nechí, en emergencia: Corantioquia alertó que las dragas ilegales pasaron de 30 a 170 en el Bajo Cauca",
+   "url": "https://ifmnoticias.com/seguridad/rio-nechi-en-emergencia-corantioquia-alerta-que-las-dragas-ilegales-pasaron-de-3/",
+   "fuente": "ifmnoticias",
+   "fecha": "2026-11-27T08:36:00.000Z",
+   "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ingest/rio-nechi-en-emergencia-corantioquia-alerta-que-las-dragas-ilegales-pasaron-de-3-1795794380688.webp"
+  },
+  {
+   "titulo": "Río Nechí en emergencia grave: de 30 a 170 dragas por minería ilegal",
+   "url": "https://www.minuto30.com/rio-nechi-emergencia/1735479/",
+   "fuente": "Minuto30",
+   "fecha": "2026-11-27T02:03:00.000Z",
+   "imagen": "https://staticprd.minuto30.com/wp-content/uploads/2026/11/1-rio-nechi-dragas-incendio-1280x720-1.webp"
   },
   {
    "titulo": "Conflictos Socioambientales en Antioquia: Lecciones a partir de los ríos Medellín y Cauca y minería ilegal",
